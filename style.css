@@ -37,10 +37,11 @@ body{
     display: flex;
 }
 
-.content{
+.one .content{
     background-color: blue;
     height: 600px;
     display: flex;
+    flex-direction: column;
     flex: initial;
     width: 75%;
 }
