@@ -1,0 +1,46 @@
+html,
+body{
+    margin: 0;
+}
+
+.one,
+.two,
+.three,
+.four{
+    min-height: 100vh;
+    display: flex;
+}
+
+.one{
+    background-color: aquamarine;
+    justify-content: center;
+}
+
+.two{
+    background-color: bisque;
+}
+
+.three{
+    background-color: cadetblue;
+}
+
+.four{
+    background-color: aqua;
+}
+
+.header{
+    background-color: teal;
+    min-height: 60px;
+    flex: none;
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+}
+
+.content{
+    background-color: blue;
+    height: 600px;
+    display: flex;
+    flex: initial;
+    width: 75%;
+}
