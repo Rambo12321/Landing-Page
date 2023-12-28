@@ -75,7 +75,7 @@ a{
     gap: 15px;
 }
 
-.context{
+.one .context{
     border: 0px solid red;
     flex: auto;
     border-radius: 10px;
@@ -86,14 +86,14 @@ a{
     padding-top: 22px;
 }
 
-.context-1,
-.context-2{
+.one .context-1,
+.one .context-2{
     flex: auto;
     word-wrap: normal;
     width: 50%;
 }
 
-.context-1{
+.one .context-1{
     word-wrap: normal;
     color: white;
     display: flex;
@@ -101,7 +101,7 @@ a{
     gap: 11px;
 }
 
-.context-2{
+.one .context-2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,25 +111,25 @@ a{
     border-radius: 0 10px 10px 0;
 }
 
-.context img{
+.one img{
     width: 100%;
     height: auto;
     border: 0px;
 }
 
-.heading{
+.one .heading{
     padding-top: 10px;
     font-size: 60px;
     font-weight: bolder;
     text-align: center;
 }
 
-.texts{
+.one .texts{
     font-size: 21px;
     padding: 25px 15px 0 15px;
 }
 
-.button{
+.one .button{
     display: flex;
     justify-content: center;
     align-items: center;
