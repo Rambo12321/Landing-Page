@@ -12,14 +12,9 @@ body{
 }
 
 .one{
-    background-color: aquamarine;
     justify-content: center;
     background-image: url(Images/Page-1_background.jpg);
     background-size: cover;
-}
-
-.two{
-    background-color: bisque;
 }
 
 .three{
@@ -56,7 +51,7 @@ a{
     margin-right: 15px;
 }
 
-.header{
+.one .header{
     min-height: 60px;
     flex: none;
     font-size: 24px;
@@ -148,4 +143,15 @@ a{
 .button button:hover{
     background-color: crimson;
     color: white;
+}
+
+.two{
+    background-image: url(Images/COD-ghost.jpg);
+    background-size: cover;
+    justify-content: center;
+}
+
+.two .content{
+width: 75%;
+background-color: rgba(95,158,160,0.5);
 }
