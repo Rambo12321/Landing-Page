@@ -44,8 +44,10 @@ a{
 }
 
 .logo{
-    font-weight: 900;
-    font-size: 32px;
+    font-weight: bolder;
+    font-size: 55px;
+    padding-left: 10px;
+    color: midnightblue;
 }
 
 .right ul{
@@ -65,25 +67,85 @@ a{
 }
 
 .one .content{
-    height: 600px;
+    height: 650px;
     display: flex;
     flex-direction: column;
     flex: initial;
     width: 75%;
+    gap: 15px;
 }
 
 .context{
     border: 0px solid red;
     flex: auto;
     border-radius: 10px;
-    background-color: black;
-    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
-    padding: 20%;
+    height: 90%;
     box-sizing: border-box;
+    padding-top: 22px;
+}
+
+.context-1,
+.context-2{
+    flex: auto;
+    word-wrap: normal;
+    width: 50%;
 }
 
 .context-1{
     word-wrap: normal;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.context-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 0.7;
+    margin-top: -22px;
+    border-radius: 0 10px 10px 0;
+}
+
+.context img{
+    width: 100%;
+    height: auto;
+    border: 0px;
+}
+
+.heading{
+    padding-top: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.texts{
+    font-size: 21px;
+    padding: 25px 15px 0 15px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+}
+
+.button button{
+    padding: 5px 15px;
+    font-size: 25px;
+    border: 0;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    color: black;
+}
+
+.button button:hover{
+    background-color: crimson;
     color: white;
 }
