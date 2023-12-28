@@ -17,10 +17,6 @@ body{
     background-size: cover;
 }
 
-.three{
-    background-color: cadetblue;
-}
-
 .four{
     background-color: aqua;
 }
@@ -221,4 +217,38 @@ border-radius: 10px;
     color: rgb(7, 163, 1);
     border: 0;
     border-radius: 15PX;
+}
+
+.three{
+    flex: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.three .back-vid
+{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.three .auth{
+    height: 300px;
+    width: 700px;
+    flex: initial;
+    background-color: rgba(102, 0, 0, 0.7);
+    border: 0;
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: -90px;
+    font-size: 23px;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-family: fantasy;
+}
+
+#me{
+    font-size: 30px;
+    font-weight: bolder;
 }
