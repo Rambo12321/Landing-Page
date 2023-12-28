@@ -212,7 +212,6 @@ border-radius: 10px;
     font-size: 16px;
     margin-top: 10px;
     padding: 10px 5px 0 8px;
-    line-height: 22px;
     height: 210px;
     background-color: rgba(0, 0, 0, 0.7);
     color: rgb(7, 163, 1);
@@ -245,7 +244,7 @@ border-radius: 10px;
     margin-bottom: -90px;
     font-size: 23px;
     color: whitesmoke;
-    font-weight: bolder;
+    font-weight: bold;
     font-family: fantasy;
 }
 
@@ -284,12 +283,13 @@ border-radius: 10px;
 }
 
 .four .ls{
-    width: 75%;
+    width: 80%;
     font-size: 25px;
     font-weight: 800;
     word-wrap: normal;
     flex-direction: column;
     flex: initial;
+    padding: 10px;
 }
 
 .four .ls,
