@@ -57,7 +57,7 @@ a{
 }
 
 .one .content{
-    height: 620px;
+    height: 580px;
     display: flex;
     flex-direction: column;
     flex: initial;
@@ -77,7 +77,7 @@ a{
 
 .one .context-1,
 .one .context-2{
-    flex: auto;
+    flex: initial;
     word-wrap: normal;
     width: 50%;
 }
